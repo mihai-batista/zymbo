@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            visible="false">
+         <run
+               class="collaborationmail.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="collaborationmail.Perspective"
+            id="collaborationMail.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="Whiteboard"
+            allowMultiple="true"
+            icon="icons/pencil.gif"
+            class="collaborationmail.View"
+            id="collaborationMail.view">
+      </view>
+      <view
+            name="Collaborators"
+            allowMultiple="true"
+            icon="icons/user_min.gif"
+            class="collaborationmail.NavigationView"
+            id="collaborationMail.navigationView">
+      </view>
+      <view
+            class="collaborationmail.Toolbar"
+            id="collaborationMail.toolbar"
+            name="Toolbar"
+            restorable="true">
+      </view>
+      <view
+            class="collaborationmail.Properties"
+            id="collaborationMail.properties"
+            name="Properties"
+            restorable="true">
+      </view>
+      <view
+            class="collaborationmail.ViewPart3"
+            id="collaborationMail.view3"
+            name="name"
+            restorable="true">
+      </view>
+      <view
+            class="collaborationmail.Conversation"
+            id="collaborationMail.conversation"
+            name="Conversation"
+            restorable="true">
+      </view>
+      <view
+            class="collaborationmail.TableView"
+            id="collaborationMail.tableView"
+            name="name"
+            restorable="true">
+      </view>
+      <view
+            class="article.imageviewer.views.ImageView"
+            id="collaborationMail.ImageView"
+            name="ImageView"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Mail"
+            id="collaborationMail.category">
+      </category>
+      <command
+            name="Open Mailbox"
+            description="Opens a mailbox"
+            categoryId="collaborationMail.category"
+            id="collaborationMail.open">
+      </command>
+      <command
+            name="Open Message Dialog"
+            description="Open a message dialog"
+            categoryId="collaborationMail.category"
+            id="collaborationMail.openMessage">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="collaborationMail.open"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+2">
+      </key>
+      <key
+            commandId="collaborationMail.openMessage"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+3">
+      </key>
+      <key
+            commandId="org.eclipse.ui.file.exit"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+X">
+      </key>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="collaborationMail.application"
+            name="RCP Product">
+         <property
+               name="aboutText"
+               value="RCP Mail template created by PDE">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/sample2.gif">
+         </property>
+         <property
+               name="aboutImage"
+               value="product_lg.gif">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

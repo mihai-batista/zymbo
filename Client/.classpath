@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="smack_3.1.0/smack.jar"/>
+	<classpathentry exported="true" kind="lib" path="smack_3.1.0/smackx.jar"/>
+	<classpathentry exported="true" kind="lib" path="smack_3.1.0/xpp3_min-1.1.3.4-RC8.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Work/Licenta/12.06.2012/libraries/smack 3.1.0/smack_3_1_0/smack.jar"/>
+	<classpathentry kind="lib" path="D:/Work/Licenta/12.06.2012/libraries/smack 3.1.0/smack_3_1_0/smackx.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

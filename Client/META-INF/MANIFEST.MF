@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CollaborationMail
+Bundle-SymbolicName: abcd;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: collaborationmail.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.junit
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: .,
+ smack_3.1.0/smack.jar,
+ smack_3.1.0/smackx.jar,
+ smack_3.1.0/xpp3_min-1.1.3.4-RC8.jar
+Import-Package: org.eclipse.core.resources
