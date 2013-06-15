@@ -1,0 +1,18 @@
+<whiteboard>
+<class>
+<id>1</id>
+<x>104</x>
+<y>98</y>
+<width>186</width>
+<height>175</height>
+<title>XMPP Connect</title>
+<edited_by>none</edited_by>
+<visibility>+</visibility>
+<is_abstract>0</is_abstract>
+<attributes>+String name&#13;
++int ID</attributes>
+<operations>+String getID()&#13;
++void processPacket()&#13;
++int computeWidth</operations>
+</class>
+</whiteboard>

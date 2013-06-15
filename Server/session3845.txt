@@ -1,0 +1,11 @@
+<whiteboard>
+<class>
+<id>1</id>
+<x>114</x>
+<y>1</y>
+<width>100</width>
+<height>160</height>
+<title>abc633236549</title>
+<edited_by>none</edited_by>
+</class>
+</whiteboard>
