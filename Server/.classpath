@@ -12,6 +12,7 @@
 	<classpathentry kind="lib" path="D:/Work/Licenta/12.06.2012/libraries/whack_src_1_0_0/build/lib/merge/stringprep.jar"/>
 	<classpathentry kind="lib" path="D:/Work/Licenta/12.06.2012/libraries/whack_src_1_0_0/build/lib/merge/xpp3.jar"/>
 	<classpathentry kind="lib" path="D:/Work/Licenta/12.06.2012/libraries/mysql-connector-java-5.1.20-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Colaborare pe diagrame/Repository/Libraries/whack.1.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="conf"/>
 	<classpathentry kind="lib" path="D:/Work/Licenta/12.06.2012/libraries/smack 3.1.0/smack_3_1_0/smack.jar"/>

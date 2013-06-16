@@ -157,7 +157,7 @@ public class PartySpamComponent implements org.xmpp.component.Component, PacketL
 	public void initialize(JID iJid, ComponentManager iComponentManager)
 			throws ComponentException {
 		System.out.println("Initializing component.");
-		mConnection = XMPPConnect.getInstance("176.34.122.48", "twilio@smsfeedback.com", "123456", "client", "umldesigner.smsfeedback.com", this);
+		mConnection = XMPPConnect.getInstance("127.0.0.1", "twilio@smsfeedback.com", "123456", "client", "umldesigner.smsfeedback.com", this);
 		mMgr = (ExternalComponentManager) iComponentManager;
 		mSessionIndex = SessionHelper.getLastSessionId();
 	}

@@ -5,15 +5,15 @@ import org.jivesoftware.whack.*;
 import org.xmpp.component.*;
 
 public class Main {
-	private final static String HOST = "176.34.122.48";
+	private final static String HOST = "127.0.0.1";
 	private final static int PORT = 5275;
 	public static void main(String[] args) {
 	   
 	  ExternalComponentManager mgr = new ExternalComponentManager(HOST, 5275);
-      mgr.setSecretKey("umldesigner", "picpocpac");
+      mgr.setSecretKey("server", "secret");
       
       try {
-         mgr.addComponent("umldesigner", new PartySpamComponent());
+         mgr.addComponent("server", new PartySpamComponent());
       } catch (ComponentException e) {
          Logger.getLogger(Main.class.getName()).log(Level.SEVERE, "main", e);
          System.exit(-1);
