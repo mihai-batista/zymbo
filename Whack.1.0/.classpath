@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Colaborare pe diagrame/Repository/Libraries/whack_src_1_0_0/whack.jar"/>
+	<classpathentry kind="lib" path="D:/Colaborare pe diagrame/Repository/Libraries/whack_src_1_0_0/build/lib/merge/dom4j.jar"/>
+	<classpathentry kind="lib" path="D:/Colaborare pe diagrame/Repository/Libraries/whack_src_1_0_0/build/lib/merge/jetty.jar"/>
+	<classpathentry kind="lib" path="D:/Colaborare pe diagrame/Repository/Libraries/whack_src_1_0_0/build/lib/merge/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/Colaborare pe diagrame/Repository/Libraries/whack_src_1_0_0/build/lib/merge/xpp3.jar"/>
+	<classpathentry kind="lib" path="D:/Colaborare pe diagrame/Repository/Libraries/whack_src_1_0_0/build/lib/merge/stringprep.jar"/>
+	<classpathentry kind="lib" path="D:/Colaborare pe diagrame/Repository/Libraries/servlet-api-2.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
